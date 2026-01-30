@@ -1,0 +1,107 @@
+/* ---------- Tipografía y fondo ---------- */
+body {
+    font-family: "Georgia", Times, serif;
+    background-color: #fafafa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* ---------- Encabezado ---------- */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Georgia", serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0;
+    color: #111;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0 15px 0;
+}
+
+/* ---------- Navegación ---------- */
+nav a {
+    font-family: "Georgia", serif;
+    color: #444;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* ---------- Contenido principal ---------- */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+/* ---------- Lista de obras / secciones ---------- */
+.lista-obras {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista-obras li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.lista-obras li:last-child {
+    border-bottom: none;
+}
+
+/* ---------- Enlaces de obras ---------- */
+a.obra-link {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.obra-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Sección de contacto ---------- */
+.contact-info {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.contact-info strong {
+    color: #000;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
