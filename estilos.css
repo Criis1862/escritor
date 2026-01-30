@@ -1,107 +1,88 @@
-/* ---------- Tipografía y fondo ---------- */
 body {
-    font-family: "Georgia", Times, serif;
-    background-color: #fafafa;
-    color: #222;
+    font-family: "Georgia", serif;
     margin: 0;
-    padding: 0;
-    line-height: 1.7;
+    background-color: #f5f2ee;
+    color: #1e1e1e;
+    line-height: 1.8;
 }
 
-/* ---------- Encabezado ---------- */
+/* Header */
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    padding: 30px 0 20px 0;
+    background-color: #6b1f2b; /* burdeos */
+    color: #fff;
     text-align: center;
+    padding: 40px 20px;
 }
 
 header h1 {
-    font-family: "Georgia", serif;
-    font-size: 2.8rem;
-    font-weight: bold;
+    font-size: 3rem;
     margin: 0;
-    color: #111;
+    letter-spacing: 1px;
 }
 
-header p {
-    font-size: 1.1rem;
-    color: #555;
-    margin: 5px 0 15px 0;
+.subtitulo {
+    font-size: 1.2rem;
+    color: #f2d5a7; /* dorado suave */
+    margin-top: 10px;
 }
 
-/* ---------- Navegación ---------- */
+/* Navegación */
+nav {
+    margin-top: 20px;
+}
+
 nav a {
-    font-family: "Georgia", serif;
-    color: #444;
+    color: #f2d5a7;
     text-decoration: none;
-    margin: 0 12px;
-    font-size: 1rem;
+    margin: 0 15px;
+    font-size: 1.05rem;
 }
 
 nav a:hover {
     text-decoration: underline;
-    color: #000;
 }
 
-/* ---------- Contenido principal ---------- */
+/* Contenido */
 main {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #111;
+.bloque {
+    background-color: #ffffff;
+    padding: 40px;
+    border-left: 6px solid #6b1f2b;
 }
 
-/* ---------- Lista de obras / secciones ---------- */
-.lista-obras {
+h2 {
+    font-size: 2.2rem;
+    margin-top: 0;
+    color: #6b1f2b;
+}
+
+/* Obras */
+.obras {
     list-style: none;
     padding: 0;
-    margin-top: 20px;
 }
 
-.lista-obras li {
-    padding: 10px 0;
-    border-bottom: 1px solid #e0e0e0;
-    font-size: 1.1rem;
-    color: #333;
+.obras li {
+    margin-bottom: 35px;
 }
 
-.lista-obras li:last-child {
-    border-bottom: none;
+.obras h3 {
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    color: #1e1e1e;
 }
 
-/* ---------- Enlaces de obras ---------- */
-a.obra-link {
-    color: #222;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a.obra-link:hover {
-    text-decoration: underline;
-}
-
-/* ---------- Sección de contacto ---------- */
-.contact-info {
-    font-size: 1.1rem;
-    margin-top: 15px;
-}
-
-.contact-info strong {
-    color: #000;
-}
-
-/* ---------- Footer ---------- */
+/* Footer */
 footer {
     text-align: center;
+    padding: 20px;
+    background-color: #2a2a2a;
+    color: #ccc;
     font-size: 0.9rem;
-    color: #666;
-    padding: 15px 0;
-    border-top: 1px solid #ddd;
-    margin-top: 50px;
 }
+
